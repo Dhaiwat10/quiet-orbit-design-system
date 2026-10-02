@@ -1,0 +1,21 @@
+{
+  "name": "@dhaiwat10/quiet-orbit",
+  "version": "0.1.0",
+  "description": "Quiet editorial interfaces, warm neutrals, violet accents, and considered motion.",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./css": "./css/quiet-orbit.css",
+    "./tokens": "./tokens/tokens.json",
+    "./motion": "./js/motion.js",
+    "./fonts/*": "./fonts/*"
+  },
+  "files": ["css", "tokens", "js", "fonts"],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

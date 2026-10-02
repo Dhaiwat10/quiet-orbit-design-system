@@ -1,0 +1,63 @@
+/* Generated from tokens/tokens.json. Run npm run build after edits. */
+@layer quiet-orbit {
+  .qo {
+    --qo-color-bg: #fafaf9;
+    --qo-color-ink: #121214;
+    --qo-color-text: #636268;
+    --qo-color-muted: #6c6b72;
+    --qo-color-muted-reference: #7d7c83;
+    --qo-color-rule: #e6e5e2;
+    --qo-color-card: #f1f1ef;
+    --qo-color-hover: #e9e8e6;
+    --qo-color-accent: #6b46c1;
+    --qo-color-accent-soft: #6b46c130;
+    --qo-color-link-rule: #cfcdd3;
+    --qo-color-paper: #fffefd;
+    --qo-color-disabled: #c4c3c8;
+    --qo-color-success: #41684f;
+    --qo-color-danger: #a23f43;
+    --qo-font-sans: 'Instrument Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --qo-font-mono: 'Fragment Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+    --qo-font-body: 15px;
+    --qo-font-small: 13px;
+    --qo-font-micro: 11px;
+    --qo-font-title: 28px;
+    --qo-font-weight: 480;
+    --qo-font-strong-weight: 560;
+    --qo-font-line-height: 1.55;
+    --qo-size-column: 24rem;
+    --qo-size-wide: 34rem;
+    --qo-size-card: 22rem;
+    --qo-size-workspace: 72rem;
+    --qo-size-gutter: 1rem;
+    --qo-size-hit: 44px;
+    --qo-size-control: 32px;
+    --qo-space-1: 4px;
+    --qo-space-2: 8px;
+    --qo-space-3: 12px;
+    --qo-space-4: 16px;
+    --qo-space-5: 20px;
+    --qo-space-6: 24px;
+    --qo-space-7: 28px;
+    --qo-space-8: 36px;
+    --qo-space-9: 48px;
+    --qo-space-10: 56px;
+    --qo-space-11: 64px;
+    --qo-space-12: 100px;
+    --qo-space-13: 128px;
+    --qo-space-nav-gap: 22px;
+    --qo-radius-control: 10px;
+    --qo-radius-window: 12px;
+    --qo-radius-popover: 14px;
+    --qo-radius-card: 24px;
+    --qo-shadow-lift: 0 1px 1px #1010140f, 0 10px 18px -6px #10101429, 0 28px 44px -16px #1010144d;
+    --qo-shadow-popover: 0 4px 12px #16102009, 0 15px 40px #1610200d;
+    --qo-motion-fast: 160ms;
+    --qo-motion-ui: 200ms;
+    --qo-motion-enter: 300ms;
+    --qo-motion-draw: 420ms;
+    --qo-motion-delay: 120ms;
+    --qo-motion-distance: 5px;
+    --qo-motion-ease: cubic-bezier(.3, 0, .2, 1);
+  }
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiet Orbit · Workspace example</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/css/quiet-orbit.css"><link rel="stylesheet" href="/examples/examples.css">
+  <script type="module" src="/examples/specimen.js"></script>
+</head>
+<body class="qo">
+  <a class="qo-skip" href="#main">Skip to content</a>
+  <nav class="qo-nav" aria-label="Examples"><a href="/">Reference</a><a href="/#components">Components</a><a href="/examples/workspace.html" aria-current="page">Workspace<svg class="qo-squiggle" viewBox="0 0 44 6" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M1 3 Q3.6 .5 6.2 3 T11.4 3 T16.6 3 T21.8 3 T27 3 T32.2 3 T37.4 3 T42.6 3"/></svg></a></nav>
+  <main class="qo-workspace" id="main">
+    <header class="workspace-header"><div><span class="qo-label">An example of a wider application</span><h1 class="qo-title">A place for things in progress.</h1></div><a class="qo-button qo-button--quiet" href="#new-note">Add a note</a></header>
+    <div class="workspace-grid">
+      <section aria-labelledby="projects-title">
+        <h2 id="projects-title">On the desk</h2>
+        <div class="qo-table-wrap" tabindex="0" aria-label="Project table — scroll horizontally on small screens">
+          <table class="qo-table"><thead><tr><th scope="col">Project</th><th scope="col">Status</th><th scope="col">Updated</th></tr></thead><tbody>
+            <tr><td><span class="workspace-table-title">Field notes</span><span class="qo-small">A small home for useful observations</span></td><td><span class="qo-badge qo-badge--success">In progress</span></td><td class="qo-mono">Today</td></tr>
+            <tr><td><span class="workspace-table-title">Reading room</span><span class="qo-small">Collecting ideas worth returning to</span></td><td><span class="qo-badge">Exploring</span></td><td class="qo-mono">Yesterday</td></tr>
+            <tr><td><span class="workspace-table-title">A small tool</span><span class="qo-small">One everyday task, made a little easier</span></td><td><span class="qo-badge">Resting</span></td><td class="qo-mono">Last week</td></tr>
+          </tbody></table>
+        </div>
+        <div class="workspace-meta"><span class="qo-small">Three projects, at their own pace.</span></div>
+        <section class="workspace-secondary" aria-labelledby="notes-title"><h2 id="notes-title">Loose ends</h2><ul class="qo-rule-list" data-notes><li>Leave space for the next good idea.</li><li>Make the useful thing feel good to use.</li></ul></section>
+      </section>
+      <aside class="qo-panel" id="new-note">
+        <h2>A thought to keep</h2>
+        <p class="qo-small">The same type, surfaces, and rhythm can serve a wider workspace.</p>
+        <form class="example-form" data-note-form><div class="qo-field"><label for="note-text">Your note</label><textarea class="qo-input" id="note-text" name="note" rows="3" required maxlength="200" placeholder="Follow this thread…" aria-describedby="note-help"></textarea><span class="qo-small" id="note-help">Notes last until you refresh this example.</span></div><div class="example-controls"><button class="qo-button qo-button--primary" type="submit">Add note</button></div><p class="qo-small example-note" data-note-status role="status"></p></form>
+      </aside>
+    </div>
+  </main>
+  <footer class="qo-workspace qo-footer"><span>Space for the task at hand</span><a class="qo-small" href="/docs/adapting.md">Read the adaptation guide</a></footer>
+</body>
+</html>

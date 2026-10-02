@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quiet Orbit"
+  short_description: "Warm editorial interfaces with restrained motion"
+  default_prompt: "Use $quiet-orbit to apply this aesthetic to my project while preserving its purpose and existing stack."

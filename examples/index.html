@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Quiet Orbit: an independent, reusable aesthetic for personal sites and applications.">
+  <title>Quiet Orbit · A visual language</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/css/quiet-orbit.css">
+  <link rel="stylesheet" href="/examples/examples.css">
+  <script type="module" src="/examples/specimen.js"></script>
+</head>
+<body class="qo">
+  <a class="qo-skip" href="#main">Skip to content</a>
+  <nav class="qo-nav" aria-label="Examples">
+    <a href="/" aria-current="page">Reference<svg class="qo-squiggle" viewBox="0 0 44 6" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M1 3 Q3.6 .5 6.2 3 T11.4 3 T16.6 3 T21.8 3 T27 3 T32.2 3 T37.4 3 T42.6 3"/></svg></a>
+    <a href="#components">Components</a>
+    <a href="/examples/workspace.html">Workspace</a>
+  </nav>
+  <main id="main">
+    <section class="qo-column qo-prose example-intro">
+      <span class="qo-label">A reusable visual language</span>
+      <h1 class="qo-title">Quiet Orbit</h1>
+      <p>A small collection of decisions that make an interface feel <strong>considered, warm, and personal</strong>. A little less decoration. A little more room to breathe.</p>
+      <p>Start with the type and the space around it. Add a quiet surface, one useful interaction, and something that feels like you.</p>
+      <p>The details are portable. The possibilities are your own.</p>
+    </section>
+
+    <section class="qo-wide example-section" aria-labelledby="palette-title">
+      <h2 class="qo-label" id="palette-title">A warm canvas, a small accent</h2>
+      <div class="example-swatches">
+        <div><div class="example-swatch" style="background:var(--qo-color-bg)"></div><span class="qo-small example-swatch-label">Background</span><span class="qo-mono">#fafaf9</span></div>
+        <div><div class="example-swatch" style="background:var(--qo-color-card)"></div><span class="qo-small example-swatch-label">Surface</span><span class="qo-mono">#f1f1ef</span></div>
+        <div><div class="example-swatch" style="background:var(--qo-color-rule)"></div><span class="qo-small example-swatch-label">Rule</span><span class="qo-mono">#e6e5e2</span></div>
+        <div><div class="example-swatch" style="background:var(--qo-color-text)"></div><span class="qo-small example-swatch-label">Text</span><span class="qo-mono">#636268</span></div>
+        <div><div class="example-swatch" style="background:var(--qo-color-ink)"></div><span class="qo-small example-swatch-label">Ink</span><span class="qo-mono">#121214</span></div>
+        <div><div class="example-swatch" style="background:var(--qo-color-accent)"></div><span class="qo-small example-swatch-label">Accent</span><span class="qo-mono">#6b46c1</span></div>
+      </div>
+    </section>
+
+    <section class="qo-column example-section" id="components" aria-labelledby="type-title">
+      <h2 class="qo-label" id="type-title">Modest type. Clear hierarchy.</h2>
+      <div class="example-scale">
+        <p class="qo-title">Room for a good idea.</p>
+        <p>Instrument Sans, with a little weight and a comfortable rhythm. <strong>Emphasis can be quiet.</strong></p>
+        <p class="qo-small">Smaller details remain readable.</p>
+        <p class="qo-mono">001 / A small change, thoughtfully made</p>
+      </div>
+      <hr class="example-rule">
+      <div class="qo-prose">
+        <p>A useful <a href="/docs/design-system.md">design reference</a>, and a <span class="qo-popover-anchor"><button class="qo-popover-trigger" data-qo-popover aria-controls="personal-note" aria-expanded="false">small aside</button><span class="qo-popover" id="personal-note" role="note" hidden>Violet is a detail to notice, not a color to fill every surface.</span></span>.</p>
+      </div>
+      <form class="example-form" data-preview-form>
+        <div class="qo-field"><label for="thought">A thought to keep</label><input class="qo-input" id="thought" name="thought" placeholder="Something you noticed today" required maxlength="120" aria-describedby="thought-hint"><span class="qo-small" id="thought-hint">This example updates only this page.</span></div>
+        <div class="example-controls"><button class="qo-button qo-button--primary" type="submit">Keep the thought</button><button class="qo-button qo-button--quiet" type="reset">Start over</button></div>
+        <p class="qo-small example-note" data-preview-status role="status"></p>
+      </form>
+    </section>
+
+    <section class="example-section" aria-labelledby="motion-title">
+      <h2 class="qo-column qo-label" id="motion-title">A little movement, with a reason</h2>
+      <div class="qo-shelf" data-qo-shelf>
+        <div class="qo-shelf-track" data-qo-track id="motion-shelf" tabindex="0" aria-label="Interaction examples — scroll horizontally">
+          <figure class="qo-card"><div class="qo-card-face"><div class="example-stage"><div class="example-orbit" aria-hidden="true"></div><button class="example-dot qo-drag" data-qo-drag aria-label="Drag the point, or move it with arrow keys. Escape resets it."></button></div><p class="qo-card-note">pick it up; let it find its way back</p></div><figcaption class="qo-card-caption"><span class="qo-card-title">A little gravity</span><span class="qo-small">Drag & spring</span></figcaption></figure>
+          <figure class="qo-card"><div class="qo-card-face"><div class="example-paper qo-prose"><p class="qo-ink">Less, but with intention.</p><p class="qo-small">A quiet surface. A soft shadow. Just enough depth to make the object feel present.</p></div><p class="qo-card-note">depth belongs to the object</p></div><figcaption class="qo-card-caption"><span class="qo-card-title">A note on the desk</span><span class="qo-small">Surface & light</span></figcaption></figure>
+          <figure class="qo-card"><div class="qo-card-face"><div class="example-motion-block" id="entry-demo"><p class="qo-ink">Hello, again.</p><button class="qo-button" data-replay="entry-demo">Replay entrance</button></div><p class="qo-card-note">300ms, and five quiet pixels</p></div><figcaption class="qo-card-caption"><span class="qo-card-title">An easy entrance</span><span class="qo-small">Fade & translate</span></figcaption></figure>
+        </div>
+        <div class="qo-shelf-controls"><button class="qo-icon-button" data-qo-prev aria-label="Previous example" aria-controls="motion-shelf" disabled><span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12 6 8 10l4 4"/></svg></span></button><button class="qo-icon-button" data-qo-next aria-label="Next example" aria-controls="motion-shelf"><span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m8 6 4 4-4 4"/></svg></span></button><span class="qo-shelf-position" data-qo-position aria-live="polite">1 / 3</span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="qo-column qo-footer"><span>Made to make your own</span><span class="qo-mono">Quiet Orbit · 0.1</span></footer>
+</body>
+</html>
